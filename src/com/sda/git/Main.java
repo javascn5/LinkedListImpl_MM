@@ -16,7 +16,12 @@ public class Main {
         customList.add("Jeden");
         customList.add("Dwa");
         customList.add("Trzy");
+        customList.add("Cztery");
+        customList.add("Pięc");
+        customList.add("Sześć");
+        customList.add("Siedem");
 
+        customList.printList();
 
         List<String> list = new LinkedList<>();
 
@@ -27,6 +32,8 @@ public class Main {
         for(String l: list)
             System.out.println(l);
 
+        System.out.println("======================================================");
+        customList.find(3);
 
     }
 }
